@@ -1,0 +1,17 @@
+CODE C++
+--------
+class foo
+{
+	public:
+		void show() const;
+		void edit();
+		bool read(const std::string& filename);
+};
+
+CODE C
+------
+struct foo {};
+
+void foo_show(const foo* obj);
+void foo_edit(foo* obj);
+int foo_read(foo* obj, const char* filename); 

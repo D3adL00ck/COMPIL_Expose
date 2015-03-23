@@ -1,0 +1,23 @@
+CODE C++
+--------
+
+int main()
+{
+	foo bar;
+	bar.show();
+	bar.edit();
+	bar.read("file.txt");
+} 
+
+CODE C
+------
+
+int main(void)
+{
+	foo bar;
+	foo_show(&bar);
+	foo_show(&bar);
+	foo_show(&bar, "file.txt");
+
+	return 0;
+} 
